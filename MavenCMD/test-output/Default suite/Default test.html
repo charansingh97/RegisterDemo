@@ -1,0 +1,215 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Sep 07 16:27:15 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>55 seconds (55436 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.telus.testng.RegisterUserDemo.applicationClose()'><b>applicationClose</b><br>Test class: com.telus.testng.RegisterUserDemo<br/>
+<a href="#Output-707506411" onClick='toggleBox("Output-707506411", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-707506411" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-707506411">
+Application is successful closed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.telus.testng.RegisterUserDemo@56de5251</td></tr>
+<tr>
+<td title='com.telus.testng.RegisterUserDemo.launchApplication()'><b>launchApplication</b><br>Test class: com.telus.testng.RegisterUserDemo</td>
+<td></td>
+<td>36</td>
+<td>com.telus.testng.RegisterUserDemo@56de5251</td></tr>
+<tr>
+<td title='com.telus.testng.RegisterUserDemo.registrarionForm()'><b>registrarionForm</b><br>Test class: com.telus.testng.RegisterUserDemo<br/>
+<a href="#Output-231725600" onClick='toggleBox("Output-231725600", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-231725600" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-231725600">
+Registraion From is open<br/>
+Title is Displayed<br/>
+Register For Demo<br/>
+Title is Enabled<br/>
+---------------------------------------------------------<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.telus.testng.RegisterUserDemo@56de5251</td></tr>
+<tr>
+<td title='com.telus.testng.RegisterUserDemo.successfulMessage()'><b>successfulMessage</b><br>Test class: com.telus.testng.RegisterUserDemo<br/>
+<a href="#Output-1490985125" onClick='toggleBox("Output-1490985125", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1490985125" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1490985125">
+Registration From Successful<br/>
+Successful Message Display <br/>
+The Actual Successful Message is [[ChromeDriver: chrome on WINDOWS (d1c120e6c41512b88a4543aa0e227527)] -> xpath: //*[@id="content"]/article/div/div/div/div/section[1]/div/div/div[1]/div/div/div/div/div]<br/>
+Trasenction Id : NXTGEN1937465<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.telus.testng.RegisterUserDemo@56de5251</td></tr>
+<tr>
+<td title='com.telus.testng.RegisterUserDemo.userRegistrarion()'><b>userRegistrarion</b><br>Test class: com.telus.testng.RegisterUserDemo<br/>
+<a href="#Output-1311292881" onClick='toggleBox("Output-1311292881", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1311292881" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1311292881">
+First Name is Displayed<br/>
+First Name is Charan<br/>
+First name is Enabled<br/>
+---------------------------------------------------------<br/>
+Last Name is Displayed<br/>
+Last Name is Singh<br/>
+Last name is Enabled<br/>
+---------------------------------------------------------<br/>
+Gender is Displayed<br/>
+Gender is Enabled<br/>
+---------------------------------------------------------<br/>
+Address is Displayed<br/>
+Address is Palwal Haryana<br/>
+Address is Enabled<br/>
+---------------------------------------------------------<br/>
+Street Address is Displayed<br/>
+Street Address is A23<br/>
+Street Address is Enabled<br/>
+---------------------------------------------------------<br/>
+City Address is Displayed<br/>
+City Address is Palwal<br/>
+City Address is Enabled<br/>
+---------------------------------------------------------<br/>
+State is displayed<br/>
+State is Haryana<br/>
+State is enabled<br/>
+---------------------------------------------------------<br/>
+Zip Code is Displayed<br/>
+Zip Code is 121102<br/>
+Zip Code is Enabled<br/>
+---------------------------------------------------------<br/>
+Country is Displayed<br/>
+Country is India<br/>
+Country is Enabled<br/>
+---------------------------------------------------------<br/>
+Email is Displayed<br/>
+Email is akash123@gmail.com<br/>
+Email is Enabled<br/>
+---------------------------------------------------------<br/>
+Date of Demo is Displayed<br/>
+Date of Demo is 27/07/2022<br/>
+Date of Demo is Enabled<br/>
+---------------------------------------------------------<br/>
+Time in Hours is Displayed<br/>
+Time in Hours is 12<br/>
+Time in Hours is Enabled<br/>
+---------------------------------------------------------<br/>
+Time in minutes is Displayed<br/>
+Time in minutes is 30<br/>
+Time in minutes is Enabled<br/>
+---------------------------------------------------------<br/>
+Mobile number is Displayed<br/>
+Mobile number is 9034171706<br/>
+Mobile number is Enabled<br/>
+---------------------------------------------------------<br/>
+Selenium WebDriver is Displayed<br/>
+Selenium WebDriver is Enabled<br/>
+---------------------------------------------------------<br/>
+TestNG is Displayed<br/>
+TestNG is Enabled<br/>
+---------------------------------------------------------<br/>
+Core Java is Displayed<br/>
+Core Java is Enabled<br/>
+---------------------------------------------------------<br/>
+Query is Displayed<br/>
+Query is Registration for nextgen<br/>
+Query is Enabled<br/>
+---------------------------------------------------------<br/>
+Example<br/>
+ 99<br/>
+99<br/>
+Verification code is displayed<br/>
+Verification Code is enabled<br/>
+---------------------------------------------------------<br/>
+Submit  Button is displayed<br/>
+Submit Button is enabled<br/>
+Submit Button is clicked<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.telus.testng.RegisterUserDemo@56de5251</td></tr>
+</table><p>
+</body>
+</html>
